@@ -1,0 +1,5 @@
+Hadoop es una plataforma de procesamiento distribuido.
+Hadoop permite almacenar y procesar grandes volúmenes de datos.
+El sistema HDFS de Hadoop es altamente tolerante a fallos.
+MapReduce permite dividir el trabajo en tareas paralelas.
+El ecosistema de Hadoop incluye muchas herramientas útiles.
