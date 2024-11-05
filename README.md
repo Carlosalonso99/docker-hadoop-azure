@@ -70,6 +70,13 @@ Reemplaza `<dirección_IP_pública_de_tu_VM>` con la IP asignada a tu VM.
 
 Este paso asegura que Docker y Docker Compose están configurados en la VM.
 
+4. **Habilitar la salida o entrada de puertos **
+
+   Redes > Configuracion de red >  Crear ACL del puerto
+
+   ![image](https://github.com/user-attachments/assets/2aad7a24-c536-4e19-9e18-d8d3193eb825)
+
+
 ## Paso a Paso para Ejecutar el Ejemplo
 
 ### 1. Levantar el Clúster de Hadoop
