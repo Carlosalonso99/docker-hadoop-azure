@@ -201,7 +201,7 @@ YARN es el componente de Hadoop encargado de la gestión de recursos y la planif
 Si obtienes un error indicando que el directorio de salida ya existe, elimina el directorio de salida antes de volver a ejecutar el trabajo:
 
 ```bash
-docker exec -it namenode hdfs dfs -rm -r /user/Alumno_AI/output
+sudo docker exec -it namenode hdfs dfs -rm -r /user/Alumno_AI/output
 ```
 
 ## Limpieza
@@ -209,13 +209,13 @@ docker exec -it namenode hdfs dfs -rm -r /user/Alumno_AI/output
 Para detener y eliminar todos los contenedores y redes:
 
 ```bash
-docker-compose down
+sudo docker-compose down
 ```
 
 Si deseas eliminar también los volúmenes:
 
 ```bash
-docker-compose down -v
+sudo docker-compose down -v
 ```
 
 ## Notas Finales
