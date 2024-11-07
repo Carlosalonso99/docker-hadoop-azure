@@ -221,5 +221,5 @@ sudo docker-compose down -v
 ## Notas Finales
 
 - Asegúrate de que los **DataNodes** estén registrados correctamente en el **NameNode** antes de intentar subir archivos a HDFS.
-- Puedes acceder a la interfaz web del NameNode en `http://localhost:9870` para monitorear el estado del clúster.
+- Puedes acceder a la interfaz web del NameNode en `http://ip_maquina:9870` para monitorear el estado del clúster.
 
